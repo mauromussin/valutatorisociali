@@ -1,0 +1,47 @@
+# Staticman
+comments:
+  allowedFields: ["name","email","body"]
+
+allowedOrigins: ["localhost"]
+
+branch: "master"
+
+generatedFields:
+  date:
+    type: date
+
+format: "json"
+
+moderation: "true"
+
+name: "valutatorisociali"
+
+path: "data/comments/{options.entryId}"
+
+filename: "{@id}"
+
+requiredFields; ["name", "body"]
+
+transforms:
+  email: md5
+
+posts:
+  allowedFields: ["title","body"]
+  allowedOrigins: ["localhost"]
+  branch: "master"
+  generatedFields:
+    date:
+      type: date 
+    slug:
+      type: slugify
+      options:
+        field: title
+    tags: ["user-generated"]
+  format: "frontmatter"
+  moderation: true
+  name: "valutatorisociali"
+  path: "content/post"
+  filename: "{fields.slug}"
+  requiredFields: ["title","body"]
+  transforms:
+    body: "frontmatterContent"
