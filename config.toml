@@ -1,11 +1,4 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Valutatori Sociali"
-theme = "strange-case"
-[staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
-  username = "mauromussin"
-  repository = "valutatorisociali"
-  branch = "master"
-
 
