@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Valutatori Sociali"
-theme = "minimo"
+theme = "strange-case"
 
 [params.sidebar]
   enable = true

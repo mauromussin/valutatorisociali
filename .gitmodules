@@ -4,3 +4,6 @@
 [submodule "themes/minimo"]
 	path = themes/minimo
 	url = https://github.com/MunifTanjim/minimo
+[submodule "themes/strangecase"]
+	path = themes/strangecase
+	url = https://github.com/ExchangeRate-API/strange-case
