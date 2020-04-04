@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Valutatori Sociali"
-theme = "mytheme"
+theme = "minimo"
 
 [params.sidebar]
   enable = true
